@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dynalight&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Restaurant Page Sample</title>
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <section id="hero" class="w-full h-screen flex items-center justify-center " style="background-image: url(./hero-bg.jpg); background-size: cover; background-position: center;">
+    <div class="space-y-6 text-center bg-black bg-opacity-60 p-6 rounded-2xl">
+      <h1 id="hero-title" class="text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-[Dynalight]">Paradise Palace</h1>
+      <h2 id="hero-subtitle" class="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl font-[Roboto] font-extralight"><i>A piece of heaven in every bite!</i></h2>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="w-full h-screen flex items-center justify-center" style="background-image: url(./details-bg.jpg); background-size: cover;">
+    <div id="about-text" class="py-12 px-12 sm:px-24 md:px-32 lg:px-52 bg-black bg-opacity-70">
+      <h3 class="text-white font-light text-xl md:text-2xl text-center">This restaurant sports one of the vest views in the city. With open spaces and amply separated tables, our local gives a feeling of both freedom and intimacy for those who wish only to enjoy the company of their loved ones. The warm ilumination and high ceilings further help to convey the sensation of being in a world where nothing exists but your table companions, and our excelent dishes!</h3>
+    </div>
+  </section>
+
+  <!-- DETAILS SECTION -->
+  <section id="details" class="w-full min-h-screen py-8 flex items-center justify-center text-zinc-200 font-[Roboto]" style="background-image: url(./info-bg.jpg); background-size: cover; background-position: center;">
+  <div class="size-11/12 p-4 bg-black bg-opacity-50 rounded-2xl md:grid md:grid-cols-2 items-center justify-center font-light">
+
+    <!-- Location info -->
+    <div id="location" class="w-full md:min-h-screen p-8 md:p-4 flex flex-col items-center justify-center space-y-2 sm:space-y-4">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d419631.70534547506!2d-102.0577111577002!3d34.746203280500936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87016b85233f395b%3A0x9ad9b52121e3732a!2sSad%20Monkey%20Mercantile!5e0!3m2!1sen!2scu!4v1750805600210!5m2!1sen!2scu" width="90%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p id="location-text" class="p-4 sm:p-8 sm:text-xl text-center">Come find us at: Somewhere City, Anyville, Building 22 at Regular Street between Some and Other!</p>
+    </div>
+
+    <!-- Bussiness info -->
+    <div id="business-info" class="w-full md:min-h-screen p-4 text-center md:grid md:grid-rows-3 items-center justify-center">
+      
+      <div id="details" class="space-y-8 md:space-y-4 py-12 sm:py-20 md:py-4 border-t border-white md:border-none">
+        <h3 class="text-3xl sm:text-4xl font-[Dynalight]">Schedule:</h3>
+        <div class="space-y-6 md:space-y-4 sm:text-xl">
+          <div class="space-y-1">
+            <p>Mondays to Saturdays:</p>
+            <p>8:00 AM - 10:00 PM</p>
+          </div>
+          <div class="space-y-1">
+            <p>Sundays:</p>
+            <p>9:00 AM - 6:00 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="payment" class="space-y-8 md:space-y-4 py-12 sm:py-20 md:py-6 border-t border-white md:border-b">
+        <h3 class="text-3xl sm:text-4xl font-[Dynalight]">Payment methods:</h3>
+        <ul class="sm:text-xl space-y-2 md:space-y-1">
+          <li>Cash</li>
+          <li>Credit Card</li>
+          <li>Other</li>
+        </ol>
+      </div>
+
+      <div id="contact" class="space-y-8 md:space-y-4 py-12 sm:py-20 md:py-4 border-t border-white md:border-none">
+        <h3 class="text-3xl sm:text-4xl font-[Dynalight]">Make a reservation!</h3>
+        <div class="space-y-4 sm:text-xl">
+          <div class="space-y-1">
+            <p>Phone:</p>
+            <p>+63 32 212 312</p>
+          </div>
+          <div class="space-y-1">
+            <p>Email:</p>
+            <p>some.restaurant@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- MENU -->
+   <section id="menu" class="min-h-screen flex flex-col items-center justify-center text-white" style="background-image: url(./menu-bg.jpg); background-size: cover; background-position: initial;">
+
+    <div class="w-3/4 bg-black bg-opacity-80 rounded-2xl mb-16 mt-4">
+      <h2 id="menu-title" class="text-center text-5xl p-8 sm:text-6xl sm:p-10 md:text-7xl md:p-14 border-b md:border-b-2 m-4 border-white font-[Dynalight]">Menu</h2>
+      <ul id="menu" class="w-full rounded-2xl mb-0">
+
+        <li><button class="w-full flex flex-col items-center justify-center group overflow-hidden">
+          <div class="w-full h-16 md:h-24 flex items-center">
+            <p class="ml-8 mr-4 text-2xl group-focus:rotate-90 transition">></p>
+            <p class="text-3xl md:text-4xl font-[Dynalight]">Appetizers</p>
+          </div>
+          <ul class="bg-white text-slate-800 sm:text-xl md:text-2xl font-semibold text-left rounded-xl max-h-0 group-focus:mb-4 group-focus:max-h-screen" style="width: 97%;">
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Cheeseballs</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Round fried cheese with syrup</i></p>
+              </div>
+              <p>30$</p>
+            </li>
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Mixed Slices</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Cheese, Ham and Pineaple</i></p>
+              </div>
+              <p>20$</p>
+            </li>
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Roasted Peanuts</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Peanuts, salt, butter</i></p>
+              </div>
+              <p>10$</p>
+            </li>
+          </ul>
+        </button></li>
+
+        <li><button class="w-full flex flex-col items-center justify-center group overflow-hidden">
+          <div class="w-full h-16 md:h-24 flex items-center">
+            <p class="ml-8 mr-4 text-2xl group-focus:rotate-90 transition">></p>
+            <p class="text-3xl md:text-4xl font-[Dynalight]">Drinks</p>
+          </div>
+          <ul class="bg-white text-slate-800 sm:text-xl md:text-2xl font-semibold text-left rounded-xl max-h-0 group-focus:mb-4 group-focus:max-h-screen" style="width: 97%;">
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Heineken</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Blonde Beer</i></p>
+              </div>
+              <p>20$</p>
+            </li>
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Piña Colada</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Pinaple juice, condensed milk</i></p>
+              </div>
+              <p>25$</p>
+            </li>
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Margarita</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Vodka and other stuff</i></p>
+              </div>
+              <p>35$</p>
+            </li>
+          </ul>
+        </button></li>
+
+        <li><button class="w-full flex flex-col items-center justify-center group overflow-hidden">
+          <div class="w-full h-16 md:h-24 flex items-center">
+            <p class="ml-8 mr-4 text-2xl group-focus:rotate-90 transition">></p>
+            <p class="text-3xl md:text-4xl font-[Dynalight]">Main Courses</p>
+          </div>
+          <ul class="bg-white text-slate-800 sm:text-xl md:text-2xl font-semibold text-left rounded-xl max-h-0 group-focus:mb-4 group-focus:max-h-screen" style="width: 97%;">
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Pork Steak</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Pork loin, pepper, salt and vineager</i></p>
+              </div>
+              <p>50$</p>
+            </li>
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Beef Steak</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Some juicy beef steak!</i></p>
+              </div>
+              <p>60$</p>
+            </li>
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Grilled Chicken Drums</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Better than a box of roses!</i></p>
+              </div>
+              <p>40$</p>
+            </li>
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Shrimp Sauce</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Shrimps, tomato sauce, mayonaise, sugar</i></p>
+              </div>
+              <p>50$</p>
+            </li>
+          </ul>
+        </button></li>
+
+        <li><button class="w-full flex flex-col items-center justify-center group overflow-hidden">
+          <div class="w-full h-16 md:h-24 flex items-center">
+            <p class="ml-8 mr-4 text-2xl group-focus:rotate-90 transition">></p>
+            <p class="text-3xl md:text-4xl font-[Dynalight]">Desserts</p>
+          </div>
+          <ul class="bg-white text-slate-800 sm:text-xl md:text-2xl font-semibold text-left rounded-xl max-h-0 group-focus:mb-4 group-focus:max-h-screen" style="width: 97%;">
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Pudding</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Sweet and covered in condensed milk!</i></p>
+              </div>
+              <p>25$</p>
+            </li>
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Icecream</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Strawberry, Chocolate or Vanilla</i></p>
+              </div>
+              <p>10$</p>
+            </li>
+            <li class="p-4 pr-4 md:pr-8 flex flex-row justify-between items-center border-b border-black border-opacity-80 border-dashed last:border-none">
+              <div class="space-y-1">
+                <p>Fruits n' Syrup</p>
+                <p class="text-sm sm:text-base md:text-xl font-normal text-slate-700"><i>Sliced apple, strawberry, and pinapple!</i></p>
+              </div>
+              <p>5$</p>
+            </li>
+          </ul>
+        </button></li>
+      </ul>
+    </div>
+   </section>
+</body>
+</html>
